@@ -16,7 +16,7 @@ logs/
 .DS_Store
 Thumbs.db
 
-# Build/packaged files (optional)
+# Build/packaged files
 *.zip
 *.tar
 *.gz
