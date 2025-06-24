@@ -4,6 +4,7 @@ node_modules/
 # Environment files
 .env
 .env.*
+.env.local
 
 # Uploaded files
 uploads/
@@ -15,8 +16,38 @@ logs/
 # System files
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Build/packaged files
 *.zip
 *.tar
 *.gz
+
+# OS-specific files
+ehthumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Dependency lock files (optional if you use only one)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Coverage / test output
+coverage/
+*.lcov
+
+# Git & lint cache
+.gitignore
+.npmrc
+.eslintcache
+
+git-filter-repo
+
